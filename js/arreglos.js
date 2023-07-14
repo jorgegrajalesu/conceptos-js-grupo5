@@ -14,3 +14,18 @@ const movies = ['Flash', 'Indiana Jones:5', 'Destino Final'];
 console.log(movies);
 // mostrar solo la peli indiana jones
 console.log(movies[1]);
+
+// combinar arreglos
+let libros = [
+    'Sistemas',
+    'Contabilidad',
+    25000,
+    37000,
+    25000*0.2,
+    ['Wilson', 'Pedro', true, '14/07/23']
+];
+
+// mostrar todo la información de los libros
+console.log(libros);
+// mostrar la fecha 
+console.log(libros[5][3]);
