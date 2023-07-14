@@ -12,3 +12,5 @@ console.log({Auto});
 const movies = ['Flash', 'Indiana Jones:5', 'Destino Final'];
 // mostrar todas las pelis
 console.log(movies);
+// mostrar solo la peli indiana jones
+console.log(movies[1]);
