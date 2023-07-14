@@ -9,4 +9,4 @@ console.log(auto);
 console.log({Auto});
 
 // ejemplo 2
-const movies = ['Flash', 'Indiana Jones:5', ''];
+const movies = ['Flash', 'Indiana Jones:5', 'Destino Final'];
