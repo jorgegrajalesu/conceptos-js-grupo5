@@ -8,3 +8,5 @@ let  Auto = ['Deportivo', 'rojo', 'automatico', 250000000];
 console.log(auto);
 console.log({Auto});
 
+// ejemplo 2
+const movies = ['Flash', 'Indiana Jones:5', ''];
