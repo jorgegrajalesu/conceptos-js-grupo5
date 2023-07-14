@@ -29,3 +29,6 @@ let libros = [
 console.log(libros);
 // mostrar la fecha 
 console.log(libros[5][3]);
+
+// muestra el ultimo valor de arreglo
+
