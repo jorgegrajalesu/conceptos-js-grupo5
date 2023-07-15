@@ -30,5 +30,7 @@ console.log(libros);
 // mostrar la fecha 
 console.log(libros[5][3]);
 
-// muestra el ultimo valor de arreglo
+// muestra el último valor de arreglo
+let ultimoValor = libros[libros.length - 1];
+console.log('El último valor es: ', ultimoValor);
 
