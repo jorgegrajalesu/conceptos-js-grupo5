@@ -12,3 +12,5 @@ console.table(libros);
 
 // muestra el libro crimen y castigo
 console.log('El libro es: ', libros.nombre);
+// muestra el libro el principito
+console.log('El libro es: ', libros.nombre2);
