@@ -34,3 +34,10 @@ console.log(libros[5][3]);
 let ultimoValor = libros[libros.length - 1];
 console.log('El último valor es: ', ultimoValor);
 
+// cuántos valores tiene el array de libros
+console.log('Los valores: ', libros.length);
+
+// Agregar un nuevo elemento al array de libros
+let nuevoLibro = libros.push('El Principito');
+console.log({nuevoLibro, libros});
+
