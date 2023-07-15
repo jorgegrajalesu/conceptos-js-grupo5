@@ -34,3 +34,6 @@ let autos = {
     paisMarca:['Italia', 'Japón', 'Alemania'],
 
 }
+
+// mostrar los paises
+console.log(autos.paisMarca); 
