@@ -11,3 +11,14 @@ function miNombre(){
 
 // llamar la función
 miNombre();
+
+// función con argumentos
+/**
+ * 
+ * @param {String} apellido 
+ */
+function miApellido(apellido){
+    console.log(`Mi apellido: ${apellido}`); 
+}
+
+miApellido('Grajales');
