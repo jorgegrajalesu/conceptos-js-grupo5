@@ -19,3 +19,5 @@ const p1 = 'precio1';
 console.log('El precio 1 es: ', libros[p1]);
 
 // agregar una nueva propiedad al objeto libros
+libros.nuevoLibro = 'Una mujer de cuatro en conducta';
+console.log(libros);
