@@ -41,3 +41,7 @@ console.log('Los valores: ', libros.length);
 let nuevoLibro = libros.push('El Principito');
 console.log({nuevoLibro, libros});
 
+// Aregar un nuevo elemento al principio del array de libros
+let elementoLibroPrincipio = libros.unshift('Crimen y castigo');
+console.log({elementoLibroPrincipio, libros});
+
