@@ -25,3 +25,12 @@ console.log(libros);
 // eliminar una propiedad del objeto libros
 delete libros.nombre;
 console.log(libros);
+
+// combinar un objeto con arreglos
+let autos = {
+    marca1: 'Ferrari',
+    marca2: 'Toyota',
+    marca3: 'Mercedes',
+    paisMarca:['Italia', 'Japón', 'Alemania'],
+
+}
