@@ -14,3 +14,8 @@ console.table(libros);
 console.log('El libro es: ', libros.nombre);
 // muestra el libro el principito
 console.log('El libro es: ', libros.nombre2);
+// consultar el elemento precio1 del objeto
+const p1 = 'precio1';
+console.log('El precio 1 es: ', libros[p1]);
+
+// agregar una nueva propiedad al objeto libros
