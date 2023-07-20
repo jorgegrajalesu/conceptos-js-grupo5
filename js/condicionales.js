@@ -43,7 +43,7 @@ if (materia1 ==='frontend' && materia2==='inglés' && diaMateria ==='miercoles')
 
 // condicional switch, también se basa por una condicion y se utilizar varios case
 // ejempo4: Mostrar las actividades que realizan dependiendo del día
-const diaActividad = 'lunes';
+const diaActividad = 'miercoles';
 
 switch (diaActividad) {
     case 'lunes':
