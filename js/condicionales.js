@@ -33,5 +33,10 @@ console.warn('ejemplo3: Mostrar profes');
 
 const materia1 = 'frontend';
 const materia2 = 'inglés';
-let diaMateria = 'jueves';
+let diaMateria = 'miercoles';
 
+if (materia1 ==='frontend' && materia2==='inglés' && diaMateria ==='miercoles') {
+    console.log('Los profes son: Jorge' + ' - ' + ' Fabiola');
+}else{
+    console.log('No son los profes');
+}
