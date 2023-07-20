@@ -16,7 +16,7 @@ if (nombreMataria==='frontend') {
  * */ 
 console.warn('ejemplo2: Determinar el ingreso');
 
-let edadPersona = 18;
+let edadPersona = 56;
 
 if (edadPersona >= 18) {
 
