@@ -25,3 +25,13 @@ if (edadPersona >= 18) {
 }else{
     console.log(`Tu edad es: ${edadPersona} - no puedes ingresar`);
 }
+
+/**
+ *  ejemplo3: Determinar los profes de inglés y frontend, el día miercoles.
+ * */ 
+console.warn('ejemplo3: Mostrar profes');
+
+const materia1 = 'frontend';
+const materia2 = 'inglés';
+let diaMateria = 'jueves';
+
