@@ -40,3 +40,66 @@ if (materia1 ==='frontend' && materia2==='inglés' && diaMateria ==='miercoles')
 }else{
     console.log('No son los profes');
 }
+
+// condicional switch, también se basa por una condicion y se utilizar varios case
+// ejempo4: Mostrar las actividades que realizan dependiendo del día
+const diaActividad = 'lunes';
+
+switch (diaActividad) {
+    case 'lunes':
+        console.log('lunes');
+        console.log('Estudio');        
+        console.log('Trabajo');        
+        console.log('Doy clases');        
+        
+        break;
+    case 'martes':
+        console.log('martes');
+        console.log('Estudio');        
+        console.log('Trabajo');        
+        console.log('Doy clases');         
+        console.log('Ensayo con la banda');         
+        
+        break;
+    case 'miercoles':
+        console.log('miercoles');
+        console.log('Estudio');        
+        console.log('Trabajo');        
+        console.log('Doy clases: grupo 2 y grupo 5');         
+        console.log('Ensayo con la banda');         
+        
+        break;
+    case 'jueves':
+        console.log('jueves');
+        console.log('Estudio');        
+        console.log('Trabajo');        
+        console.log('Doy clases');         
+            
+        break;
+    case 'viernes':
+        console.log('viernes');
+        console.log('Estudio');        
+        console.log('Trabajo');        
+        console.log('Doy clases: a los grupos 2 y 5');               
+             
+        break;
+    case 'sabado':
+        console.log('sabado');
+        console.log('Estudio');        
+        console.log('Trabajo');        
+        console.log('en la noche me tomo unas politas');            
+    
+        break;
+    case 'domingo':
+        console.log('domingo');
+        console.log('Estudio');        
+        console.log('voy a la ciclovia');        
+        console.log('voy a cine');               
+        
+        break;
+
+    default:
+        console.log('Error en sintaxis del día');
+        break;
+}
+
